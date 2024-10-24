@@ -1,0 +1,467 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+.fonttext{
+  font-weight: bolder;
+  color: black;
+}
+.fonttexts{
+  font-weight: bolder;
+  color: black;
+  /* margin-left: 300px; */
+  text-align: center;
+   
+}
+.l1{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+}
+.agenda{
+  text-align: center;
+  color: white;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+body {
+  font-family: "Roboto"!important
+}
+
+  /* styling of nav and hero section */
+.navlinks{
+  text-decoration: none;
+   margin: 10px;
+  color: white;
+}
+
+.hero{
+  background-image: url("../src/asset/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+
+.hero-text{
+
+  position: absolute;
+  top: 30%;
+  left: 50px;
+  
+  /* right: 100px; */
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: white;
+ 
+}
+
+.hero-button{
+  padding: 10px 10px; 
+  border-radius: 10px 10px;
+  background-color: red;
+  border: red;
+  color: white;
+  align-items: center;
+  margin-left: 170px;
+  text-decoration: none;
+}
+
+.newnavcolor{
+  background-color: green;
+}
+
+.pink{
+  background-color: white;
+  color: white;
+}
+
+.basic-navbar-nav{
+  color: white;
+  background-color: white;
+}
+
+
+
+
+/* smaller screens for display products */
+
+
+
+
+/* smaller screens shop */
+
+@media (min-width:300px) {
+
+  .hero-text{
+
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    
+    /* right: 100px; */
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+   
+  }
+
+  .head-text{
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  .hero-button{
+    /* padding: 10px 10px; 
+    border-radius: 10px 10px;
+    background-color: red;
+    border: red;
+    color: white;
+    align-items: center; */
+    margin-left: 120px;
+
+   
+    align-items: center;
+    text-decoration: none;
+  }
+  
+
+ 
+}
+
+/* mid and larger screens */
+ @media (min-width:768px) {
+
+  .head-text{
+    font-size: 5rem;
+    font-weight: bolder;
+    width: 50%;
+  }
+  
+} 
+/*  */
+
+
+@media (min-width: 100px) {
+ .big{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+ }
+    
+ } 
+
+
+@media (min-width: 576px) {
+
+  .big{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+  } 
+  
+}
+
+@media (min-width: 992px) {
+
+  .big{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+  }
+
+}
+
+
+
+
+
+
+
+/*  */
+
+/* pages heros section */
+.newRegister{
+  background-image: url("../src/asset/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+  height: 50vh;
+    padding: 100px 0;
+    position: relative;
+
+}
+.contact{
+  background-image: url("../src/asset/banga\ soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+  height: 50vh;
+    padding: 100px 0;
+    position: relative;
+}
+.Login{
+  background-image: url("../src/asset/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+  height: 50vh;
+    padding: 100px 0;
+    position: relative;
+
+}
+.contact-wrapper{
+  position: absolute;
+}
+.register-wrapper{
+  position: absolute;
+}
+.login-wrapper{
+  position: absolute;
+}
+
+/* form styling */
+
+.form{
+  background-color: green;
+  border-radius: 10px 10px;
+  padding: 40px 0;
+  color: white;
+}
+.cartbutton{
+  
+  background-color: red;
+  color: white;
+  border: red;
+  padding: 0 10px;
+
+}
+
+.wrapper{
+  position: relative;
+
+}
+.eye{
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: 4%;
+}
+
+.shop{
+
+  background-image: url("../src/asset/food.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+  height: 50vh;
+    padding: 100px 0;
+    position: relative;
+
+}
+.single{
+
+  background-image: url("../src/asset/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+  height: 20vh;
+    padding: 100px 0; 
+    position: relative; 
+  
+
+}
+.shop-text{
+
+  
+    position: absolute;
+     color: white;
+    left: 40px;
+    font-family: "Roboto";
+
+}
+
+
+.foodbtn{
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+.butt-cart{
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+.singlepage{
+  padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+/* footer style */
+
+.footer{
+  padding: 80px 0;
+  background-color: green;
+  font-family: "Roboto";
+}
+.contactusfooter{
+  color: white;
+   line-height: 40px ;
+}
+.linkfooter{
+  text-decoration: none;
+  color: white;
+
+}
+.resources{
+  color: white;
+  line-height: 40px;
+}
+.newsletter{
+  color: white;
+ 
+}
+.chownow{
+  color: white;
+}
+
+
+
+.contactusfooter{
+  color: white;
+   line-height: 40px ;
+}
+
+@media (max-width : 767px) {
+
+  .newsletter{
+   margin-top: 50px;
+ } 
+
+ .contactusfooter{ 
+   margin-top: 50px;
+  
+}
+
+.resources{
+  
+   margin-top: 50px;
+} 
+
+ }  
+
+ .img{
+   width: 170px;
+   height: 170px;
+   border-radius: 100%;
+ 
+ }
+ .packimg{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  
+ }
+
+
+
+  @media (min-width: 767px){
+    .wrapper{
+       display: flex;  
+    }
+    .wrapperbox{
+      display: flex;
+    }
+  }
+
+  @media (max-width: 766px){
+    /* .wrapper{
+       display: flex;  
+    } */
+    .wrapperbox{
+      /* text-align: center; */
+      margin-left: 90px;
+    
+    }
+    .images{
+    
+     margin-bottom: 30px;
+   
+    }
+  }
+
+  @media (max-width: 500px){
+  
+    .wrapperbox{
+      /* text-align: center; */
+      margin-left: 70px;
+      margin-bottom: 20px;
+    }
+    .images{
+    
+      margin-bottom: 30px;
+    
+     }
+  }
+  @media (max-width: 435px){
+  
+    .wrapperbox{
+      /* text-align: center; */
+      margin-left: 40px;
+
+    }
+    .image{
+      margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 320px){
+    /* .wrapper{
+       display: flex;  
+    } */
+    .wrapperbox{
+/*  
+      margin-left: 10px;
+      margin-bottom: 20px; */
+      display: flex;
+    }
+    .images{
+    
+      margin-bottom: 30px;
+    
+     }
+  }
+
+  
+
+ .new{
+  border-color: transparent;
+ }
+
+
+
+
+
+
+
+ 
+
